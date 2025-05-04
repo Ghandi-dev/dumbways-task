@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .form-label {
+            font-weight: 600;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Custom styling for orange hover */
+        .btn-orange-hover:hover {
+            background-color: #FFA500 !important;
+            border: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid mx-4">
+            <a class="navbar-brand" href="index.html"><img src="../assets/img/brandred.png" alt="logo" width="30"
+                    height="24"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myproject.html">My Project</a>
+                    </li>
+                </ul>
+                <a href="contact.html" class="btn btn-dark btn-orange-hover rounded-3">
+                    contact me
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid py-5">
+        <section class="card row d-flex flex-row p-4 mx-4 shadow-lg">
+            <div class="col-md-8 p-5 rounded-lg ">
+                <h2 class="text-3xl font-bold mb-4">Hi Wellcome to My Profile</h2>
+                <p class="mb-5 text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloremque perspiciatis unde
+                    laudantium eius quidem magnam fugiat, numquam consequuntur maiores ullam accusantium harum fugit sed
+                    nobis placeat non aperiam suscipit?. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Asperiores doloribus dolores, voluptatem optio fuga minus magnam voluptatum, blanditiis tenetur quo
+                    itaque soluta perferendis eligendi autem enim consequatur vero, illum inventore.
+                </p>
+                <div class="d-flex gap-2 mb-5">
+                    <a href="#" class="btn btn-dark btn-orange-hover rounded-pill px-4 py-2">
+                        Contact
+                    </a>
+                    <a href="../assets/doc/cv.pdf" download class="btn rounded-pill px-4 py-2">
+                        Download CV <i class="fa-solid fa-download ms-2"></i>
+                    </a>
+                </div>
+                <div class="d-flex gap-4">
+                    <a href="#" class="btn btn-dark btn-orange-hover rounded-circle">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="btn btn-dark btn-orange-hover rounded-circle">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="btn btn-dark btn-orange-hover rounded-circle">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="btn btn-dark btn-orange-hover rounded-circle">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card rounded-lg shadow-lg">
+                    <img src="../assets/img/avatar.jpg" alt="Avatar" class="card-img-top rounded-t-lg">
+                    <div class="card-body text-center">
+                        <h3 class="card-title text-2xl font-bold">Sonnya Ghandi</h3>
+                        <p class="card-text">Fullstack Developer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
